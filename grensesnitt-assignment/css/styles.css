@@ -1,0 +1,153 @@
+body,html{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;;
+}
+.main-logo-section{
+    /* position: relative;
+    text-align: center; */
+}
+.centered {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+.main-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+   
+
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+
+/* @media (min-width: 768px){
+    .col-s1,.col-s2, .col-s3, .col-s4, .col-s5, .col-s6, .col-s7, .col-s8, .col-s9, .col-s10, .col-s11, .col-s12,  {
+        float: left;
+    }
+} */
+
+.row{
+    width:100%;
+    display: flex;
+}
+.p-30{
+    padding-top:30px;
+    padding-bottom:30px;
+    display: inline-flex;
+}
+.col-s1{
+    width: 8.3333333%;
+}
+.col-s2{
+    width: 16.6666666%;
+}
+.col-s3{
+    width: 25%;
+}
+.col-s4{
+    width:33.3333333%;
+}
+.col-s5{
+    width: 41.6666666%;
+}
+.col-s6{
+    width: 50%;
+}
+.col-s7{
+    width: 58.3333333%;
+}
+.col-s8{
+    width: 66.6666666%;
+}
+.col-s9{
+    width: 75%;
+}
+.col-s10{
+    width: 83.3333333%;
+}   
+.col-s11{
+    width: 91.6666666%;
+}
+.col-s12{
+    width: 100%;
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.first-header{
+    color: gray;
+    font-size: 35px;
+    font-weight: bold;
+}
+.ninja-section{
+    background: #9D4A84;
+    fill: white;
+}
+.ninja-container{
+    width: 100%;
+    background-color: #9D4A84;
+}
+
+.align-content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+a{
+    color: white;   
+}
+
+.footer-container{
+    width: 100%;
+    background-color: black;
+}
+
+.footer-row{
+    width:100%;
+    display: flex;
+}
+
+.col-style{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.align-text-bottom{
+    align-items: flex-end;
+}
+
+.sub-header{
+    font-weight: bold;
+    color: gray
+}
